@@ -18,8 +18,9 @@ while index < collection.length do
   current_item = collection[index]
   if current_item == name
     return current_item
-  index += 1
+  end
 end
+index += 1
 
 nil
 end
