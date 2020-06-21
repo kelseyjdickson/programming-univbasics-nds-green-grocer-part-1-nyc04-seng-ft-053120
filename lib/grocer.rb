@@ -13,15 +13,14 @@ def find_item_by_name_in_collection(name, collection)
   # binding.pry
 
   # Consult README for inputs and outputs
-  name.each do |key, value|
+index = 0
+while index < collection.length do
+  current_item = collection[index]
 
-  if name == key
-    return value
-
-  end
+  index += 1
 end
 
-
+nil
 end
 
 def consolidate_cart(cart)
