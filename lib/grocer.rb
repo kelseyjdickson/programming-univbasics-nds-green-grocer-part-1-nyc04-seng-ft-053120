@@ -6,6 +6,7 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   name.each do |key, value|
+    puts key 
     binding.pry
   end
 
