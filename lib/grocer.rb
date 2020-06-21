@@ -16,7 +16,7 @@ def find_item_by_name_in_collection(name, collection)
   index = 0
   while index < collection.length do
     current_item = collection[index]
-    if current_item[index] == name
+    if current_item[:item] == name
       return current_item
     end
     index += 1
