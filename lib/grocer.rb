@@ -13,17 +13,17 @@ def find_item_by_name_in_collection(name, collection)
   # binding.pry
 
   # Consult README for inputs and outputs
-index = 0
-while index < collection.length do
-  current_item = collection[index]
-  if current_item[index] == name
-    return current_item
+  index = 0
+  while index < collection.length do
+    current_item = collection[index]
+    if current_item[index] == name
+      return current_item
+    end
+    index += 1
   end
-  index += 1
-end
 
 
-nil
+  nil
 end
 
 def consolidate_cart(cart)
